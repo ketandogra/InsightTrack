@@ -1,0 +1,42 @@
+.graphContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  .serviceWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    .serviceStausContainer {
+      padding: 4px 10px;
+      border-radius: 3px;
+      span {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+  }
+  .serviceDataContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    .averageContainer,
+    .responeTimeContainer {
+      h6 {
+        margin: 0px;
+      }
+    }
+    .graphSection {
+      margin: 15px 0px;
+
+    }
+  }
+
+  .statusConatiner {
+    width: 100%;
+  }
+}

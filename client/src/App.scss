@@ -1,0 +1,39 @@
+:root{
+    --primary-color:#061d53;
+    --secondary-color:#09d5a9;
+    --body-color:#F5F5F5;
+    --primary-font-color:#797979;
+    --seconday-font-color:#333333;
+}
+
+.App{
+    background-color: var(--body-color);
+    min-height: 100vh;
+
+    .button{
+        background-color: var(--secondary-color);
+        border-radius: 5px;
+        border: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 5px 15px;
+        border: 2px solid var(--secondary-color);
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+
+
+
+        &:focus{
+            outline: none;
+            color: var(--secondary-color);
+        
+            background-color: white;
+        }
+
+ 
+        
+    }
+
+}

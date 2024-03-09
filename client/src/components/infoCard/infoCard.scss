@@ -1,0 +1,79 @@
+.infoCard{
+    border-top: 3px solid #CCCCCC;
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px 20px 20px;
+    font-size: .9rem;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    .headerDiv{
+        margin-top: -5px;
+        margin-bottom: 10px;
+        div{
+            font-size: .9rem;
+            color: var(--primary-font-color);
+            font-weight: 500;
+        }
+    }
+
+    .infoBody{
+        display: flex;
+        .bodyIcon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            svg{
+                color:#5CB85C ;
+                font-size: 85px;
+            }
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-weight: 600;
+                font-size: .9rem;
+                font-style: italic;
+                color: var(--primary-font-color);
+            }
+    
+        }
+
+                .maintenance{
+                svg{
+                    color:#5BC0DE ;
+
+                }
+            }
+    }
+
+    .infoWrapper{
+        border-radius: 2px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+        .infoMessage{
+            font-size: .9rem;
+            display: flex;
+            gap: 2px;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            span{
+                white-space: nowrap;
+            }
+        }
+
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .extraInfo{
+        color: var(--seconday-font-color);
+    }
+}
